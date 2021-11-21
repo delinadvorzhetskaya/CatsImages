@@ -11,14 +11,21 @@
 		697E8D122746A5300068B92C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E8D112746A5300068B92C /* ContentView.swift */; };
 		697E8D142746A5330068B92C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697E8D132746A5330068B92C /* Assets.xcassets */; };
 		697E8D172746A5330068B92C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697E8D162746A5330068B92C /* Preview Assets.xcassets */; };
+		697E8D1E2746A80E0068B92C /* CatsImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E8D1D2746A80E0068B92C /* CatsImagesModel.swift */; };
+		697E8D202746A85F0068B92C /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E8D1F2746A85F0068B92C /* CatsViewModel.swift */; };
+		6982DAEC274AB197001A248E /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982DAEB274AB197001A248E /* DetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6977D492274A503E00C9DB77 /* TestFunc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = TestFunc.playground; path = ../TestFunc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		697E8D0C2746A5300068B92C /* CatsImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		697E8D0F2746A5300068B92C /* CatsImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsImagesApp.swift; sourceTree = "<group>"; };
 		697E8D112746A5300068B92C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		697E8D132746A5330068B92C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		697E8D162746A5330068B92C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		697E8D1D2746A80E0068B92C /* CatsImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsImagesModel.swift; sourceTree = "<group>"; };
+		697E8D1F2746A85F0068B92C /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
+		6982DAEB274AB197001A248E /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 		697E8D032746A5300068B92C = {
 			isa = PBXGroup;
 			children = (
+				6977D492274A503E00C9DB77 /* TestFunc.playground */,
 				697E8D0E2746A5300068B92C /* CatsImages */,
 				697E8D0D2746A5300068B92C /* Products */,
 			);
@@ -51,10 +59,13 @@
 		697E8D0E2746A5300068B92C /* CatsImages */ = {
 			isa = PBXGroup;
 			children = (
+				6982DAEA274AB17A001A248E /* Details */,
 				697E8D0F2746A5300068B92C /* CatsImagesApp.swift */,
 				697E8D112746A5300068B92C /* ContentView.swift */,
 				697E8D132746A5330068B92C /* Assets.xcassets */,
 				697E8D152746A5330068B92C /* Preview Content */,
+				697E8D1D2746A80E0068B92C /* CatsImagesModel.swift */,
+				697E8D1F2746A85F0068B92C /* CatsViewModel.swift */,
 			);
 			path = CatsImages;
 			sourceTree = "<group>";
@@ -65,6 +76,14 @@
 				697E8D162746A5330068B92C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6982DAEA274AB17A001A248E /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				6982DAEB274AB197001A248E /* DetailScreen.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6982DAEC274AB197001A248E /* DetailScreen.swift in Sources */,
+				697E8D1E2746A80E0068B92C /* CatsImagesModel.swift in Sources */,
+				697E8D202746A85F0068B92C /* CatsViewModel.swift in Sources */,
 				697E8D122746A5300068B92C /* ContentView.swift in Sources */,
 				697E8D102746A5300068B92C /* CatsImagesApp.swift in Sources */,
 			);
